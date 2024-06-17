@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header Styles */
+header {
+    background: #97FB57;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Styles */
+nav {
+    background: #121212;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #909090;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #853030;
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Section Titles */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Program Styles */
+.programs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.program {
+    background: #ecf0f1;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.program:hover {
+    transform: scale(1.05);
+    background: #bdc3c7;
+}
+
+.program img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+    width: 200px;
+
+    height: 200px;
+}
+
+.program img:hover {
+    transform: scale(1.1);
+}
+
+/* About, Testimonials, and Contact Styles */
+.about, .testimonials, .contact {
+    margin-bottom: 40px;
+}
+
+/* Footer Styles */
+footer {
+    background: #16a085;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.footer-column h3 {
+    margin-top: 0;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 5px 0;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #2ecc71;
+}
